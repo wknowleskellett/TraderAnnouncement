@@ -1,1 +1,1 @@
-execute as @e[entity=wandering_trader,tag=!ta_announced] run function trader_announcement:announce
+execute as @e[type=wandering_trader,tag=!ta_announced] at @s run function trader_announcement:announce
