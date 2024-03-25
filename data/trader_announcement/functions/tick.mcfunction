@@ -1,0 +1,1 @@
+execute as @e[entity=wandering_trader,tag=!ta_announced] run function trader_announcement:announce
